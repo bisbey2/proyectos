@@ -4,7 +4,7 @@ import urllib.request
 import mediapipe as mp
 
 #ip
-URL = "http://192.168.0.51:8080/shot.jpg"
+URL = "colocar la direccion IP de la camara del celular"
 
 def rastrear_manos(url, titulo_ventana="Rastreo de manos"):
     mp_manos = mp.solutions.hands
